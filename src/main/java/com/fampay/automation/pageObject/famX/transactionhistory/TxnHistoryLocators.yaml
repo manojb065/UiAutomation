@@ -1,0 +1,135 @@
+backCta:
+  prod:
+    id: "com.fampay.in:id/btn_top_left"
+
+
+helpCta:
+  prod:
+    id: "com.fampay.in:id/btn_top_right"
+
+txnTittle:
+  prod:
+    xpath: "//android.widgetTextView[@text=\"All transactions\"]"
+
+timeFilterCta:
+  prod:
+    id: "com.fampay.in:id/filter_time"
+
+#common bottom sheet element
+
+filterTittle:
+  prod:
+    id: "com.fampay.in:id/tv_title"
+
+applyFilterCta:
+  prod:
+    id: "com.fampay.in:id/btn_apply"
+
+clearFilterCta:
+  prod:
+    id: "com.fampay.in:id/btn_reset"
+
+#------------common bottom sheet element-------------
+
+#time filter bottom sheet
+
+startTimeFilter:
+  prod:
+    id: "com.fampay.in:id/tv_start"
+
+monthPicker:
+  prod:
+    xpath: "(//android.widget.NumberPicker)[1]"
+
+timeInput:
+  prod:
+    id: "android:id/numberpicker_input"
+
+yearPicker:
+  prod:
+    xpath: "(//android.widget.NumberPicker)[2]"
+
+endTimeFilter:
+  prod:
+    id: "com.fampay.in:id/tv_end"
+
+#-----------time filter bottom sheet --------------
+
+paidViaFilterCta:
+  prod:
+    id: "com.fampay.in:id/filter_channel"
+
+#payment type bottom sheet
+
+payType:
+  prod:
+    className: "android.view.ViewGroup"
+
+#------payment type bottom sheet----------
+
+txnStatusFilterCta:
+  prod:
+    id: "com.fampay.in:id/filter_status"
+
+#status filter bottom sheet
+statusOpt:
+  prod:
+    className: "android.view.ViewGroup"
+
+#-------status filter bottom sheet-----------
+
+#txn data container
+
+paidUsrName:
+  prod:
+    id: "com.fampay.in:id/tv_title"
+
+paidAmt:
+  prod:
+    id: "com.fampay.in:id/tv_amount"
+
+paidDate:
+  prod:
+    id: "com.fampay.in:id/tv_date"
+
+paidStatus:
+  prod:
+    id: "com.fampay.in:id/tv_status"
+
+txnHisData:
+  prod:
+    id: "com.fampay.in:id/data_container"
+#--------- txn data container
+noTxnHisData:
+  prod:
+    xpath: "//android.widget.TextView[@text=\"No transactions found\"]"
+
+#txn detail screen
+paidToName:
+  prod:
+    id: "com.fampay.in:id/tv_other_name"
+closeCta:
+  prod:
+    id: "com.fampay.in:id/btn_top_cross"
+
+shareCta:
+  prod:
+    id: "com.fampay.in:id/btn_share"
+
+viewDetailsCta:
+  prod:
+    id: "com.fampay.in:id/btn_view_details"
+
+viewTransDetail:
+  prod:
+    id: "com.fampay.in:id/transaction_details_wrapper"
+
+expiresTxtInfo:
+  prod:
+    id: "com.fampay.in:id/tv_helper_text"
+
+expiredScreenCloseCta:
+  prod:
+    id: "com.fampay.in:id/btn_back"
+
+#--------txn detail screen ---------

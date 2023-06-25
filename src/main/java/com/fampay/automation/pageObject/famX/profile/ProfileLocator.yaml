@@ -1,0 +1,301 @@
+userName:
+  debug:
+    xpath:  "(//android.widget.ScrollView/android.widget.TextView)[1]"
+  prod:
+    xpath:  "(//android.widget.ImageView[@content-desc=\"Profile Image\"]/following-sibling::android.widget.TextView)[1]"
+
+userBio:
+  debug:
+    xpath: "(//android.widget.ScrollView/android.widget.TextView)[2]"
+  prod:
+    xpath: "(//android.widget.ImageView[@content-desc=\"Profile Image\"]/following-sibling::android.widget.TextView)[2]"
+
+userDobAndSchoolSection:
+  debug:
+    xpath: "(//android.widget.ScrollView/android.view.View)[2]"
+  prod:
+    xpath: "(//android.widget.ScrollView/android.view.View)[1]"
+
+userDob:
+  debug:
+    xpath : "(//android.view.View[@content-desc=\"FamPay Icon\"]/following-sibling::android.widget.TextView)[1]"
+  prod:
+    xpath : "(//android.view.View[@content-desc=\"FamPay Icon\"]/following-sibling::android.widget.TextView)[1]"
+
+userSchoolNameHc:
+  debug:
+    xpath: "(//android.view.View[@content-desc=\"FamPay Icon\"]/parent::android.view.View)[2]"
+  prod:
+    xpath: "(//android.view.View[@content-desc=\"FamPay Icon\"]/parent::android.view.View)[2]"
+
+userSchoolName:
+  debug:
+    xpath: "(//android.view.View[@content-desc=\"FamPay Icon\"]/following-sibling::android.widget.TextView)[2]"
+  prod:
+    xpath: "(//android.view.View[@content-desc=\"FamPay Icon\"]/following-sibling::android.widget.TextView)[2]"
+
+usrProfileScreen:
+  debug:
+    className: "android.widget.ScrollView"
+  prod:
+    className: "android.widget.ScrollView"
+
+editUserProfileCta:
+  debug:
+    xpath : "(//android.widget.ScrollView/android.view.View)[1]"
+  prod:
+    accessibility: "Profile Image"
+
+#edit profile screen
+editUsrProfilePic:
+  debug:
+    id: "com.fampay.in.debug:id/user_image_tv"
+  prod:
+    id: "com.fampay.in:id/user_image_iv"
+
+#edit user profile pic bottom sheet
+changeUsrProfilePicTxt:
+  debug:
+    id: "com.fampay.in.debug:id/tv_title"
+  prod:
+    id: "com.fampay.in:id/tv_title"
+
+uploadFromGallery:
+  debug:
+    id: "com.fampay.in.debug:id/upload_from_gallery"
+  prod:
+    id: "com.fampay.in:id/upload_from_gallery"
+
+takePhotoFromCamera:
+  debug:
+    id: "com.fampay.in.debug:id/take_photo"
+  prod:
+    id: "com.fampay.in:id/take_photo"
+
+removeUsrPic:
+  debug:
+    id: "com.fampay.in.debug:id/remove_photo"
+  prod:
+    id: "com.fampay.in:id/remove_photo"
+
+#------------profile pic bottom sheet ---------
+
+userProfileName:
+  debug:
+    id: "com.fampay.in.debug:id/name_tv"
+  prod:
+    id: "com.fampay.in:id/name_tv"
+
+editUsrProfileName:
+  debug:
+    id: "com.fampay.in.debug:id/edit_user_added"
+  prod:
+    id: "com.fampay.in:id/edit_user_added"
+
+
+#edit user profile name bottom sheet
+editUserNameBottomSheetTittle:
+  debug:
+    id: "com.fampay.in.debug:id/tv_title"
+  prod:
+    id: "com.fampay.in:id/tv_title"
+
+editUsernameInput:
+  debug:
+    id: "com.fampay.in.debug:id/name_input_et"
+  prod:
+    id: "com.fampay.in:id/name_input_et"
+
+invalidUsernameErrMessg:
+  debug:
+    id: "com.fampay.in.debug:id/error_text"
+  prod:
+    id: "com.fampay.in:id/error_text"
+
+confirmCta:
+  debug:
+    id: "com.fampay.in.debug:id/btn_apply"
+  prod:
+    id: "com.fampay.in:id/btn_apply"
+
+clearCta:
+  prod:
+    id: "com.fampay.in:id/clear_iv"
+
+#----------------edit user profile name bottom sheet---------------
+
+#personal info drop down
+disabledEditUserNameField:
+  debug:
+    id: "com.fampay.in.debug:id/name_input_et"
+  prod:
+    id: "com.fampay.in:id/name_input_et"
+
+disabledPhoneNoField:
+  debug:
+    id: "com.fampay.in.debug:id/phone_input"
+  prod:
+    id: "com.fampay.in:id/phone_input"
+
+userEmailInputField:
+  prod:
+    id: "com.fampay.in:id/email_input"
+
+invalidUsrEmailErrMesg:
+  prod:
+    id: "com.fampay.in:id/error_text_email"
+
+userBioInputField:
+  debug:
+    id: "com.fampay.in.debug:id/bio_input"
+  prod:
+    id: "com.fampay.in:id/bio_input"
+
+invalidUsrBioErrMesg:
+  prod:
+    id: "com.fampay.in:id/error_text_bio"
+
+
+userSchoolNameInput :
+  debug:
+    id: "com.fampay.in.debug:id/school_input"
+  prod:
+    id: "com.fampay.in:id/school_input"
+
+dob:
+  debug:
+    id: "com.fampay.in.debug:id/dob_tv"
+  prod:
+    id: "com.fampay.in:id/dob_tv"
+
+userGender:
+  debug:
+    id: "com.fampay.in.debug:id/gender_tv"
+  prod:
+    id: "com.fampay.in:id/gender_tv"
+
+
+#user gender drop down
+genderOpt:
+  debug:
+    id: "com.fampay.in.debug:id/btn_radio"
+  prod:
+    id: "com.fampay.in:id/btn_radio"
+
+confirm:
+  debug:
+    id: "com.fampay.in.debug:id/btn_apply"
+  prod:
+    id: "com.fampay.in:id/btn_apply"
+
+#-----------user gender drop down----------
+#--------------personal info drop down----------
+
+lineDivider:
+  prod:
+    id: "com.fampay.in:id/border_view_2"
+
+
+#social media profiles drop down
+instagramInputField:
+  debug:
+    id: "com.fampay.in.debug:id/insta_input"
+  prod:
+    id: "com.fampay.in:id/insta_input"
+
+snapchatInputField:
+  debug:
+    id: "com.fampay.in.debug:id/snapchat_input"
+  prod:
+    id: "com.fampay.in:id/snapchat_input"
+#--------------social media drop down---------
+
+save:
+  debug:
+    id: "com.fampay.in.debug:id/save_button"
+  prod:
+    id: "com.fampay.in:id/save_button"
+
+backCta:
+  debug:
+    id: "com.fampay.in.debug:id/top_back_button"
+  prod:
+    id: "com.fampay.in:id/top_back_button"
+
+#--------edit profile screen-----------
+
+faq:
+  prod:
+    xpath: "//android.view.View[@text=\"Hello there!\"]"
+
+profileHC:
+  debug:
+    xpath: "//android.widget.TextView[@text=\"%s\"]/parent::android.view.View"
+  prod:
+    xpath: "//android.widget.TextView[@text=\"%s\"]/parent::android.view.View"
+
+logoutCta:
+  debug:
+    xpath: "//android.widget.TextView[@text=\"Log Out\"]/parent::android.view.View"
+  prod:
+    xpath: "//android.widget.TextView[@text=\"Log Out\"]/parent::android.view.View"
+
+#logout bottom sheet
+logout:
+  debug:
+    id: "com.fampay.in.debug:id/logout_button"
+  prod:
+    id: "com.fampay.in:id/logout_button"
+
+cancelLogOut:
+  debug:
+    id: "com.fampay.in.debug:id/cancel_button"
+  prod:
+    id: "com.fampay.in:id/cancel_button"
+
+#-------logout bottom sheet-------
+
+
+famLogo:
+  debug:
+    accessibility: "FamPay Icon"
+  prod:
+    xpath: "(//android.widget.ImageView[@content-desc=\"FamPay Icon\"])[2]"
+
+mahalImg:
+  debug:
+    xpath: "(//android.widget.ImageView[@content-desc=\"FamPay Icon\"])[3]"
+  prod:
+    xpath: "(//android.widget.ImageView[@content-desc=\"FamPay Icon\"])[4]"
+
+craftedText:
+  debug:
+    xpath: "//android.widget.TextView[@text=\"crafted with\"]"
+  prod:
+    xpath: "//android.widget.TextView[@text=\"crafted with\"]"
+
+#social media integration
+facebook:
+  debug:
+    accessibility: "Facebook"
+  prod:
+    accessibility: "Facebook"
+
+instagram:
+  debug:
+    accessibility: "Instagram"
+  prod:
+    accessibility: "Instagram"
+
+snapchat:
+  debug:
+    accessibility: "Snapchat"
+  prod:
+    accessibility: "Snapchat"
+#---------------social media integration------------
+
+
+
+
+
+

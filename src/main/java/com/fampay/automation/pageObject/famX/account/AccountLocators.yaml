@@ -1,0 +1,382 @@
+profileIcon:
+  prod:
+    id: "com.fampay.in:id/user_image"
+
+notificationIcon:
+  prod:
+    id: "com.fampay.in:id/ic_notify"
+
+walletBal:
+  prod:
+    id: "com.fampay.in:id/balance_text"
+
+addMoneyCta:
+  prod:
+    xpath: "//android.widget.FrameLayout[@resource-id=\"com.fampay.in:id/balance_wrapper\"]/following-sibling::android.widget.ImageView"
+
+upiHandle:
+  prod:
+    xpath: "//android.widget.TextView[matches(@text,\".*@fam\")]"
+
+#qr code screen
+
+qrCode:
+  prod:
+    accessibility: "QR Code"
+
+qrCodeActionCta:
+  prod:
+    id: "com.fampay.in:id/btn_qr_action_tv"
+
+copyCta:
+  prod:
+    xpath: "//android.widget.TextView[@text=\"%s\"]/parent::android.view.View"
+
+clearQrActionCta:
+  prod:
+    id: "com.fampay.in:id/btn_qr_action_iv"
+
+#upi restore screen
+
+upiRestoreTittle:
+  prod:
+    xpath: "//android.widget.TextSwitcher[@resource-id=\"com.fampay.in:id/tv_title\"]/android.widget.TextView"
+
+restoringUpiId:
+  prod:
+    id: "com.fampay.in:id/tv_upi_id"
+
+restoreLottie:
+  prod:
+    id: "com.fampay.in:id/lottie_view"
+
+verifyCta:
+  prod:
+    id: "com.fampay.in:id/btn_verify"
+
+upiRestoreBackCta:
+  prod:
+    id: "com.fampay.in:id/btn_back"
+
+upiRestoreInfoCta:
+  prod:
+    id: "com.fampay.in:id/btn_info"
+
+#-------- upi restoren screen ---------
+#enter amt to receive bottom sheet
+
+receiveAmtSheetHeader:
+  prod:
+    id: "com.fampay.in:id/iv_header"
+
+receiveAmtTittle:
+  prod:
+    id: "com.fampay.in:id/tv_title"
+
+inputAmtField:
+  prod:
+    id: "com.fampay.in:id/name_input_et"
+
+clearAmtField:
+  prod:
+    id: "com.fampay.in:id/clear_iv"
+
+confirmCta:
+  prod:
+    id: "com.fampay.in:id/btn_apply"
+
+
+#--------------enter amt to receive bottom sheet------------
+
+closeQrCodeCta:
+  prod:
+    id: "com.fampay.in:id/top_back_button"
+
+qrCodeThemeCta:
+  prod:
+    id: "com.fampay.in:id/iv_theme"
+
+#Qr code theme screen
+
+themeScreenTittle:
+  prod:
+    id: "com.fampay.in:id/textView"
+
+themeShareCta:
+  prod:
+    id: "com.fampay.in:id/share"
+
+sharePanel:
+  prod:
+    xpath: "//android.widget.TabHost"
+
+qrThemeBackCta:
+  prod:
+    id: "com.fampay.in:id/back"
+
+#---------- Qr code theme screen --------
+
+editUpiCta:
+  prod:
+    id: "com.fampay.in:id/iv_edit_upi"
+
+#customise upi id
+
+customUpiIdTittle:
+  prod:
+    id: "com.fampay.in:id/title_tv"
+
+customUpiIdSubTittle:
+  prod:
+    id: "com.fampay.in:id/sub_title_tv"
+
+customUpiIdEnterField:
+  prod:
+    id: "com.fampay.in:id/upi_text_input"
+
+invalidUpiErrorText:
+  prod:
+    id: "com.fampay.in:id/error_text"
+
+saveCta:
+  prod:
+    id: "com.fampay.in:id/save_button"
+
+validUpiText:
+  prod:
+    id: "com.fampay.in:id/textView8"
+
+
+#-------- customise upi id -----------
+
+shareCta:
+  prod:
+    id: "com.fampay.in:id/iv_share_qr"
+#---------- qr code screen -------------
+
+famCardHc:
+  prod:
+    id: "com.fampay.in:id/layout_root"
+
+
+#Recent transactions
+
+monthlyAddMoneyIcon:
+  prod:
+    id: "com.fampay.in:id/added_money"
+
+monthlySentMoneyIcon:
+  prod:
+    id: "com.fampay.in:id/profit_money"
+
+monthlySavedMoneyIcon:
+  prod:
+    id: "com.fampay.in:id/savings_money"
+
+twoRecentTxnDetail:
+  prod:
+    id: "com.fampay.in:id/tv_title"
+
+viewAllTxnCta:
+  prod:
+    id: "com.fampay.in:id/btn_view_all_transactions"
+
+txnTittle:
+  prod:
+    xpath: "//android.widget.TextView[@text=\"All transactions\"]"
+
+txnBackCta:
+  prod:
+    id: "com.fampay.in:id/btn_top_left"
+#------------Recent transactions--------------
+#              Manage your money section
+
+spendingLimitHc:
+  prod:
+    id: "com.fampay.in:id/transaction_settings_action"
+
+#spending limit screen
+
+spendingLmtBackCta:
+  prod:
+    id: "com.fampay.in:id/back_button"
+
+spendingLmtHelpCta:
+  prod:
+    id: "com.fampay.in:id/help_button"
+
+spendingLimitTittle:
+  prod:
+    xpath: "//android.widget.TextView[@text=\"Spending limits\"]"
+
+spendingMonthlyLmt:
+  prod:
+    id: "com.fampay.in:id/monthly_limits"
+
+spendingYearlyLmt:
+  prod:
+    id: "com.fampay.in:id/yearly_limits"
+
+editP2PLimitCta:
+  prod:
+    id: "com.fampay.in:id/p2p_action"
+
+
+editP2PLimitSubText:
+  prod:
+    id: "com.fampay.in:id/p2p_action_limit_text"
+
+editP2MLimitCta:
+  prod:
+    id: "com.fampay.in:id/p2m_upi_action"
+
+editP2MLimitSubText:
+  prod:
+    id: "com.fampay.in:id/p2m_upi_action_limit_text"
+
+editP2MCardLimitCta:
+  prod:
+    id: "com.fampay.in:id/p2m_card_action"
+
+editP2MCardLimitSubText:
+  prod:
+    id: "com.fampay.in:id/p2m_card_action_limit_text"
+
+#edit limit bottom sheet
+
+editBottomSheetTittle:
+  prod:
+    id: "com.fampay.in:id/title"
+
+editBottomSheetSubTittle:
+  prod:
+    id: "com.fampay.in:id/subtitle"
+
+editLimitAmtInput:
+  prod:
+    id: "com.fampay.in:id/txn_limit_input"
+
+saveEditedLmtCta:
+  prod:
+    id: "com.fampay.in:id/save_button"
+
+
+#---------edit limit bottom sheet---------
+
+#--------spending limit screen---------
+
+savedPaymentModeHc:
+  prod:
+    id: "com.fampay.in:id/saved_payments_modes"
+
+#Saved payment modes
+
+savedPaymentModeTittle:
+  prod:
+    xpath: "//android.widget.TextView[matches(@text,\"(\\w*(\\s)\\w*?(\\n))+\\w*\")]"
+
+noSavedPaymentMode:
+  prod:
+    xpath: "//android.widget.TextView[@text=\"No payment modes found\"]"
+
+deleteSavedCard:
+  prod:
+    id: "com.fampay.in:id/delete_card"
+
+savedMethodName:
+  prod:
+    id: "com.fampay.in:id/app_name"
+
+#--------------------Saved payment modes-------------
+
+addBackupUpiIdHc:
+  prod:
+    id: "com.fampay.in:id/add_backup_upi_id"
+
+#add backup upi id bottom sheet
+addBackupUpiIdSubTittle:
+  prod:
+    id: "com.fampay.in:id/tv_desc"
+
+#--------------add backup upi id bottom sheet-------------
+
+blockedUpiIdHc:
+  prod:
+    xpath: "//android.widget.LinearLayout[@resource-id=\"com.fampay.in:id/blocked_upi_ids\"]"
+
+#blocked upi id
+
+
+blockedUpiIdTittle:
+  prod:
+    id: "com.fampay.in:id/header_title"
+
+blockedUpiIdSubTittle:
+  prod:
+    id: "com.fampay.in:id/subtitle_tv"
+
+blockedVpa:
+  prod:
+    id: "com.fampay.in:id/vpa_tv"
+
+unblockCta:
+  prod:
+    id: "com.fampay.in:id/unblock_tv"
+
+noBlockedUpiId:
+  prod:
+    xpath: " //android.widget.TextView[@text=\"No blocked UPI IDs found\"]"
+
+#unblock upi id bottom sheet
+
+blockedUpiIdBottomSheetTittle:
+  prod:
+    id: "com.fampay.in:id/title"
+
+unblock:
+  prod:
+    id: "com.fampay.in:id/confirm_response_button"
+
+dontUnblock:
+  prod:
+    id: "com.fampay.in:id/cancel_response_button"
+
+#------------unblock upi id bottom sheet-------------------
+
+#------------blocked upi id -----------
+#-------------Manage your money section-------------
+#need help section
+
+#contact support
+
+contactSupportHc:
+  prod:
+    id: "com.fampay.in:id/contact_support"
+
+contactSupportBottomSheet:
+  prod:
+    xpath: "//android.view.View[@text=\"Hello there!\"]"
+
+
+#--------contact support----------
+#dos and donts
+
+doAndDontHc:
+  prod:
+    id: "com.fampay.in:id/dos_and_donts"
+
+doAndDontPageTittle:
+  prod:
+    id: "com.fampay.in:id/top_bar_title"
+
+#-------dos and donts-------
+
+#-----------need help section-------------
+footerImg:
+  prod:
+    id: "com.fampay.in:id/empty_view"
+
+needHelpSection:
+  prod:
+    xpath: "//android.widget.TextView[@text=\"Need Help?\"]"
+
